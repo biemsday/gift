@@ -105,7 +105,7 @@ div.index-1 {
 }
 
 
-/*block_*/
+/*block_2*/
 
 div.index-2 {
     background-color: whitesmoke;
@@ -149,6 +149,9 @@ div.index-4 {
     border: none;
 }
 
+
+/*block_5*/
+
 div.index-5 {
     background-image: url(../img/3.png);
     background-color: #27386d;
@@ -170,4 +173,147 @@ h2.tip {
 .tip {
     color: white;
     padding: 0 0 15px 10px;
+}
+
+
+/*block_6*/
+
+div.index-6 {
+    background-image: url(../img/4.jpeg);
+    background-color: #dab02a;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 189.5px;
+    border: none;
+    text-align: left;
+}
+
+
+/*block_7*/
+
+div.index-7 {
+    background-color: whitesmoke;
+    padding: 20px 0 20px 0;
+    height: auto;
+    border: none;
+}
+
+
+/*block_8*/
+
+div.index-8 {
+    background-image: url(../img/5.jpeg);
+    background-color: #93b0b6;
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 201.5px;
+    border: none;
+    text-align: left;
+}
+
+
+/*block_9*/
+
+div.index-9 {
+    background-color: whitesmoke;
+    padding: 20px 0 20px 0;
+    height: auto;
+    border: none;
+}
+
+
+/*block_10*/
+
+div.index-10 {
+    background-image: url(../img/6.jpeg);
+    background-color: #93b0b6;
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 214px;
+    border: none;
+    text-align: left;
+}
+
+
+/*block_11*/
+
+div.index-11 {
+    background-color: #27386d;
+    padding: 20px 0 20px 0;
+    height: auto;
+    border: none;
+}
+
+div.index-11>p {
+    font-size: 13pt;
+    font-weight: bolder;
+    color: white;
+}
+
+
+/*block_12*/
+
+div.index-12 {
+    background-color: whitesmoke;
+    padding: 20px 0 20px 0;
+    height: auto;
+    border: none;
+}
+
+
+/*block_13*/
+
+div.index-13 {
+    background-image: url(../img/7.jpeg);
+    background-color: #dab02a;
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 185.5px;
+    border: none;
+    text-align: left;
+}
+
+
+/*block_14*/
+
+div.index-14 {
+    background-color: whitesmoke;
+    padding: 20px 0 20px 0;
+    height: auto;
+    border: none;
+}
+
+
+/*block_15*/
+
+div.index-15 {
+    background-image: url(../img/3.png);
+    background-color: #27386d;
+    color: white;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 177.5px;
+    border: none;
+    padding: 0 50px 30px 100px;
+    text-align: left;
+}
+
+div.index-15>h2.tip {
+    padding-top: 30px;
+    font-family: "Akrobat-ExtraBold";
+}
+
+div.index-15>p.tip {
+    color: white;
+    padding: 10px 0 0 10px;
 }
