@@ -6,6 +6,13 @@
 }
 
 @font-face {
+    font-family: "Corbel-bold";
+    src: url("../fonts/CORBELB.TTF") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
     font-family: "Akrobat-Black";
     src: url("../fonts/Akrobat-Black.otf") format("truetype");
     font-style: normal;
@@ -66,6 +73,9 @@ body {
 
 a {
     text-decoration-skip-ink: auto;
+    font-family: "Corbel-bold";
+    color: #e51a4b;
+    text-decoration: none;
 }
 
 img {
@@ -93,7 +103,7 @@ h2 {
     padding: 5px 65px 5px 65px;
     margin: 0;
     color: #f58376;
-    font-family: "Corbel";
+    font-family: "Corbel-bold";
 }
 
 .container {
@@ -120,12 +130,20 @@ h2 {
     padding: 25px 50px 25px 50px;
 }
 
+.white {
+    color: white;
+}
+
+.blue {
+    color: #27386d
+}
+
 div.title {
     background-image: url(../img/title.png);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 350px;
+    height: 400px;
     background-color: #f29896;
 }
 
@@ -177,9 +195,9 @@ div.title {
 }
 
 .plat>p {
+    font-family: "Akrobat-ExtraBold";
     color: white;
-    font-size: 13pt;
-    font-weight: bold;
+    font-size: 12pt;
 }
 
 .blue-plat {
@@ -189,6 +207,7 @@ div.title {
     font-size: 12pt;
     background-color: #27386d;
     border-radius: 15px;
+    font-family: "Corbel-bold";
 }
 
 div.tip {
@@ -212,7 +231,7 @@ div.tip>h2 {
 }
 
 div.tip>h2 {
-    font-family: "Akrobat-Black";
+    font-family: "Akrobat-ExtraBold";
     padding-top: 28px;
     padding-right: 10vw;
     padding-bottom: 10px;
@@ -222,19 +241,33 @@ div.final {
     background-color: #f29896;
 }
 
+.final>p {
+    font-family: "Corbel-bold";
+}
+
 .final>h1.sub {
     padding-bottom: 25px;
 }
 
-.link {
+div.link {
+    margin: 0 auto;
+    max-width: 400px;
+    min-width: 320px;
     padding: 25px 0 25px 0;
     min-height: 50px;
 }
 
-.link>a {
-    padding: 10px 0 10px 0;
+.subscribe {
+    padding: 10px 20px 10px 20px;
     color: #e51a4b;
     font-family: "Akrobat-Black";
     font-size: 15pt;
     text-decoration: none;
+}
+
+.link>p {
+    font-family: "Akrobat-Black";
+    color: #e51a4b;
+    font-size: 15pt;
+    padding: 10px 20px 10px 20px;
 }
